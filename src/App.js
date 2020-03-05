@@ -7,9 +7,9 @@ import './App.css';
 import instructions from './instructions.jpg';
 
 // Credentials for aws (Needed for presignedUrl creation)
-const accessKeyId = 'AKIA5AXEBFX627KVFFZR';
-const secretAccessKey = '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';
-const region = 'us-west-1'
+// const accessKeyId = 'AWS IAM ACCESS KEY';
+// const secretAccessKey = 'AWS IAM SECRET ACCESS KEY';
+// const region = 'us-west-1'
 
 const s3 = new AWS.S3({
     region: region,
